@@ -1,0 +1,8 @@
+# Cloudflare Pages/Workers 静态资产部署配置
+# name 必须与 Cloudflare 控制台里创建的项目名一致（不一致会被 CF 的构建系统覆盖为控制台名称）
+name = "a-share-quant-lab"
+compatibility_date = "2025-01-01"
+
+# 纯静态站：只需要声明构建产物的目录，Cloudflare 会托管该目录并自动应用
+# dist 内的 _headers / _redirects 规则
+assets = { directory = "./web/dist" }
