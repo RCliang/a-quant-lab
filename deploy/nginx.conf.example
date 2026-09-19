@@ -1,0 +1,28 @@
+# 云服务器 nginx 配置示例（国内访问最快的方案）
+# 用法：把本文件内容放进 /etc/nginx/conf.d/quant.conf 后 nginx -s reload
+#
+# 数据自动更新（服务器 crontab -e 添加一行，工作日 18:00）：
+#   0 18 * * 1-5 cd /opt/quant_policy && bash scripts/update_all.sh >> /var/log/quant_update.log 2>&1
+# （update_all.sh 会自动更新数据并重新构建 web/dist，nginx 无需 reload——纯静态文件原地更新）
+
+server {
+    listen 80;
+    server_name _;                 # 有域名就填域名；无域名用 IP 访问
+
+    root /opt/quant_policy/web/dist;
+    index index.html;
+
+    gzip on;
+    gzip_types application/json application/javascript text/css image/svg+xml;
+    gzip_min_length 1024;
+
+    location /data/ {
+        # 数据 JSON 较大，允许客户端缓存 1 小时（每日更新后一小时内自然刷新）
+        add_header Cache-Control "public, max-age=3600";
+    }
+
+    location / {
+        # 站点使用 HashRouter（/#/路径），无需 history rewrite；直接回退 index.html 即可
+        try_files $uri $uri/ /index.html;
+    }
+}

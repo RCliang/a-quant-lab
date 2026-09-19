@@ -1,0 +1,336 @@
+- generic [ref=e4]:
+  - complementary [ref=e5]:
+    - link "A股量化策略研习室 A-SHARE QUANT LAB · 2026" [ref=e6] [cursor=pointer]:
+      - /url: "#/"
+      - text: A股量化策略研习室
+      - generic [ref=e7]: A-SHARE QUANT LAB · 2026
+    - generic [ref=e8]:
+      - generic [ref=e9]: 总览
+      - link "-- 策略地图" [ref=e10] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=e11]: "--"
+        - text: 策略地图
+      - link "-- 数据与方法" [ref=e12] [cursor=pointer]:
+        - /url: "#/data"
+        - generic [ref=e13]: "--"
+        - text: 数据与方法
+    - generic [ref=e14]:
+      - generic [ref=e15]: 短线 / 打板
+      - link "01 情绪周期与打板择时" [ref=e16] [cursor=pointer]:
+        - /url: "#/strategy/short-emotion"
+        - generic [ref=e17]: "01"
+        - text: 情绪周期与打板择时
+      - link "02 打板 / 一进二接力" [ref=e18] [cursor=pointer]:
+        - /url: "#/strategy/short-daban"
+        - generic [ref=e19]: "02"
+        - text: 打板 / 一进二接力
+      - link "03 龙头战法 / 题材动量" [ref=e20] [cursor=pointer]:
+        - /url: "#/strategy/short-longtou"
+        - generic [ref=e21]: "03"
+        - text: 龙头战法 / 题材动量
+      - link "04 短线量价突破（N日新高 + 放量）" [ref=e22] [cursor=pointer]:
+        - /url: "#/strategy/short-breakout"
+        - generic [ref=e23]: "04"
+        - text: 短线量价突破（N日新高 + 放量）
+      - link "05 低吸战法（首阴 / 龙回头）" [ref=e24] [cursor=pointer]:
+        - /url: "#/strategy/short-lowbuy"
+        - generic [ref=e25]: "05"
+        - text: 低吸战法（首阴 / 龙回头）
+    - generic [ref=e26]:
+      - generic [ref=e27]: 波段
+      - link "01 双均线趋势跟随" [ref=e28] [cursor=pointer]:
+        - /url: "#/strategy/swing-ma"
+        - generic [ref=e29]: "01"
+        - text: 双均线趋势跟随
+      - link "02 MACD 波段择时" [ref=e30] [cursor=pointer]:
+        - /url: "#/strategy/swing-macd"
+        - generic [ref=e31]: "02"
+        - text: MACD 波段择时
+      - link "03 布林带均值回归" [ref=e32] [cursor=pointer]:
+        - /url: "#/strategy/swing-boll"
+        - generic [ref=e33]: "03"
+        - text: 布林带均值回归
+      - link "04 唐奇安通道突破（海龟法则）" [ref=e34] [cursor=pointer]:
+        - /url: "#/strategy/swing-donchian"
+        - generic [ref=e35]: "04"
+        - text: 唐奇安通道突破（海龟法则）
+    - generic [ref=e36]:
+      - generic [ref=e37]: ETF 策略
+      - link "01 ETF 网格交易" [ref=e38] [cursor=pointer]:
+        - /url: "#/strategy/swing-grid"
+        - generic [ref=e39]: "01"
+        - text: ETF 网格交易
+      - link "02 行业 ETF 动量轮动" [ref=e40] [cursor=pointer]:
+        - /url: "#/strategy/etf-sector-rotation"
+        - generic [ref=e41]: "02"
+        - text: 行业 ETF 动量轮动
+      - link "03 大小盘轮动（二八轮动）" [ref=e42] [cursor=pointer]:
+        - /url: "#/strategy/etf-size-rotation"
+        - generic [ref=e43]: "03"
+        - text: 大小盘轮动（二八轮动）
+    - generic [ref=e44]:
+      - generic [ref=e45]: 中期配置
+      - link "01 双动量 + 绝对动量择时" [ref=e46] [cursor=pointer]:
+        - /url: "#/strategy/medium-dual-momentum"
+        - generic [ref=e47]: "01"
+        - text: 双动量 + 绝对动量择时
+      - link "02 估值百分位定投 / 再平衡" [ref=e48] [cursor=pointer]:
+        - /url: "#/strategy/medium-valuation"
+        - generic [ref=e49]: "02"
+        - text: 估值百分位定投 / 再平衡
+    - generic [ref=e50]:
+      - generic [ref=e51]: 可转债 T+0
+      - link "01 可转债双低轮动" [ref=e52] [cursor=pointer]:
+        - /url: "#/strategy/cb-dilow"
+        - generic [ref=e53]: "01"
+        - text: 可转债双低轮动
+      - link "02 低价券 / 摊大饼" [ref=e54] [cursor=pointer]:
+        - /url: "#/strategy/cb-lowprice"
+        - generic [ref=e55]: "02"
+        - text: 低价券 / 摊大饼
+      - link "03 可转债 T+0 日内" [ref=e56] [cursor=pointer]:
+        - /url: "#/strategy/cb-t0"
+        - generic [ref=e57]: "03"
+        - text: 可转债 T+0 日内
+  - main [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]: A-SHARE QUANT LAB · 深度调研 × 真实数据 × 可交互回测
+        - heading "把 A 股的策略江湖， 装进一台可以动手实验的研报终端。" [level=1] [ref=e62]: 把 A 股的策略江湖，装进一台可以动手实验的研报终端。
+        - paragraph [ref=e63]: 17 个适合中国A股的量化策略——短线打板、波段、中期配置、ETF 轮动、可转债 T+0。 每一个都给出原理、可量化的规则、参数与坑，其中 13 个配有真实行情数据的可交互回测： 拖动参数，净值曲线立刻重算。
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - text: "17"
+            - generic [ref=e66]: 策略深度调研
+          - generic [ref=e67]:
+            - text: "13"
+            - generic [ref=e68]: 交互回测实验室
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - text: "6.5"
+              - generic [ref=e71]: 年
+            - generic [ref=e72]: 日K数据跨度
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - text: "300"
+              - generic [ref=e75]: +
+            - generic [ref=e76]: 可转债实时快照
+      - generic [ref=e77]:
+        - heading "短线 / 打板" [level=2] [ref=e78]
+        - paragraph [ref=e80]: 日级博弈：涨停板、情绪周期、龙头与低吸，吃的是情绪与筹码的钱
+        - generic [ref=e81]:
+          - link "情绪周期与打板择时 SH·01 冰点→启动→发酵→高潮→退潮的循环，用涨停家数、连板高度、炸板率、昨涨停溢价四个日频指标客观定位——短线策略的\"总开关\"。 可交互回测 情绪周期 择时开关 真实涨停池数据" [ref=e82] [cursor=pointer]:
+            - /url: "#/strategy/short-emotion"
+            - generic [ref=e83]:
+              - heading "情绪周期与打板择时" [level=3] [ref=e84]
+              - generic [ref=e85]: SH·01
+            - paragraph [ref=e86]: 冰点→启动→发酵→高潮→退潮的循环，用涨停家数、连板高度、炸板率、昨涨停溢价四个日频指标客观定位——短线策略的"总开关"。
+            - generic [ref=e87]:
+              - generic [ref=e88]: 可交互回测
+              - generic [ref=e89]: 情绪周期
+              - generic [ref=e90]: 择时开关
+              - generic [ref=e91]: 真实涨停池数据
+          - link "打板 / 一进二接力 SH·02 在个股封涨停的瞬间买入，赌次日溢价与连板加速——A股最强的注意力与筹码锁定信号，也是 T+1 下风险最高的博弈。 高盈亏比 T+1 隔夜风险 低胜率" [ref=e92] [cursor=pointer]:
+            - /url: "#/strategy/short-daban"
+            - generic [ref=e93]:
+              - heading "打板 / 一进二接力" [level=3] [ref=e94]
+              - generic [ref=e95]: SH·02
+            - paragraph [ref=e96]: 在个股封涨停的瞬间买入，赌次日溢价与连板加速——A股最强的注意力与筹码锁定信号，也是 T+1 下风险最高的博弈。
+            - generic [ref=e97]:
+              - generic [ref=e98]: 高盈亏比
+              - generic [ref=e99]: T+1 隔夜风险
+              - generic [ref=e100]: 低胜率
+          - link "龙头战法 / 题材动量 SH·03 识别主线题材 → 锁定龙一 → 买在分歧、卖在一致——章盟主、炒股养家等顶级游资共同信奉的框架。 题材主线 弱转强 高集中度" [ref=e101] [cursor=pointer]:
+            - /url: "#/strategy/short-longtou"
+            - generic [ref=e102]:
+              - heading "龙头战法 / 题材动量" [level=3] [ref=e103]
+              - generic [ref=e104]: SH·03
+            - paragraph [ref=e105]: 识别主线题材 → 锁定龙一 → 买在分歧、卖在一致——章盟主、炒股养家等顶级游资共同信奉的框架。
+            - generic [ref=e106]:
+              - generic [ref=e107]: 题材主线
+              - generic [ref=e108]: 弱转强
+              - generic [ref=e109]: 高集中度
+          - link "短线量价突破（N日新高 + 放量） SH·04 收盘创 N 日新高且成交量 ≥ 均量 1.5~2 倍时买入——创新高代表无套牢盘，放量代表参与者众多。 可交互回测 量价 动量 震荡市失效" [ref=e110] [cursor=pointer]:
+            - /url: "#/strategy/short-breakout"
+            - generic [ref=e111]:
+              - heading "短线量价突破（N日新高 + 放量）" [level=3] [ref=e112]
+              - generic [ref=e113]: SH·04
+            - paragraph [ref=e114]: 收盘创 N 日新高且成交量 ≥ 均量 1.5~2 倍时买入——创新高代表无套牢盘，放量代表参与者众多。
+            - generic [ref=e115]:
+              - generic [ref=e116]: 可交互回测
+              - generic [ref=e117]: 量价
+              - generic [ref=e118]: 动量
+              - generic [ref=e119]: 震荡市失效
+          - link "低吸战法（首阴 / 龙回头） SH·05 强势龙头的分歧回调提供了比打板更低的成本——首阴低吸、龙回头缩量回踩 5/10 日线企稳买入。 分歧低吸 成本优势 接飞刀风险" [ref=e120] [cursor=pointer]:
+            - /url: "#/strategy/short-lowbuy"
+            - generic [ref=e121]:
+              - heading "低吸战法（首阴 / 龙回头）" [level=3] [ref=e122]
+              - generic [ref=e123]: SH·05
+            - paragraph [ref=e124]: 强势龙头的分歧回调提供了比打板更低的成本——首阴低吸、龙回头缩量回踩 5/10 日线企稳买入。
+            - generic [ref=e125]:
+              - generic [ref=e126]: 分歧低吸
+              - generic [ref=e127]: 成本优势
+              - generic [ref=e128]: 接飞刀风险
+      - generic [ref=e129]:
+        - heading "波段" [level=2] [ref=e130]
+        - paragraph [ref=e132]: 数日到数周：均线、MACD、布林、突破与网格，吃的是趋势与波动的钱
+        - generic [ref=e133]:
+          - link "双均线趋势跟随 SW·01 短均线上穿长均线（金叉）买入、下穿（死叉）卖出——对价格做低通滤波，牺牲头尾利润换取趋势中段的确定性。 可交互回测 趋势跟随 低胜率高盈亏比 震荡市磨损" [ref=e134] [cursor=pointer]:
+            - /url: "#/strategy/swing-ma"
+            - generic [ref=e135]:
+              - heading "双均线趋势跟随" [level=3] [ref=e136]
+              - generic [ref=e137]: SW·01
+            - paragraph [ref=e138]: 短均线上穿长均线（金叉）买入、下穿（死叉）卖出——对价格做低通滤波，牺牲头尾利润换取趋势中段的确定性。
+            - generic [ref=e139]:
+              - generic [ref=e140]: 可交互回测
+              - generic [ref=e141]: 趋势跟随
+              - generic [ref=e142]: 低胜率高盈亏比
+              - generic [ref=e143]: 震荡市磨损
+          - link "MACD 波段择时 SW·02 DIF 上穿 DEA 金叉买入、死叉卖出，零轴上方的金叉更可信——本质是双均线的二次平滑，比均线更\"钝\"，适合确认而非抢跑。 可交互回测 动量确认 零轴过滤 背离信号" [ref=e144] [cursor=pointer]:
+            - /url: "#/strategy/swing-macd"
+            - generic [ref=e145]:
+              - heading "MACD 波段择时" [level=3] [ref=e146]
+              - generic [ref=e147]: SW·02
+            - paragraph [ref=e148]: DIF 上穿 DEA 金叉买入、死叉卖出，零轴上方的金叉更可信——本质是双均线的二次平滑，比均线更"钝"，适合确认而非抢跑。
+            - generic [ref=e149]:
+              - generic [ref=e150]: 可交互回测
+              - generic [ref=e151]: 动量确认
+              - generic [ref=e152]: 零轴过滤
+              - generic [ref=e153]: 背离信号
+          - link "布林带均值回归 SW·03 20日均线 ±2 倍标准差构成通道：触及下轨超卖买入、回归中轨卖出——赚\"过度偏离→均值回归\"的钱，震荡市的收割机。 可交互回测 均值回归 高胜率小盈利 单边下跌爆仓" [ref=e154] [cursor=pointer]:
+            - /url: "#/strategy/swing-boll"
+            - generic [ref=e155]:
+              - heading "布林带均值回归" [level=3] [ref=e156]
+              - generic [ref=e157]: SW·03
+            - paragraph [ref=e158]: 20日均线 ±2 倍标准差构成通道：触及下轨超卖买入、回归中轨卖出——赚"过度偏离→均值回归"的钱，震荡市的收割机。
+            - generic [ref=e159]:
+              - generic [ref=e160]: 可交互回测
+              - generic [ref=e161]: 均值回归
+              - generic [ref=e162]: 高胜率小盈利
+              - generic [ref=e163]: 单边下跌爆仓
+          - link "唐奇安通道突破（海龟法则） SW·04 价格创 N 日新高买入、创 M 日新低卖出，用 ATR 统一仓位——趋势暴动年的收割机，胜率仅 35%~45% 但盈亏比极高。 可交互回测 突破 ATR 仓位 海龟法则" [ref=e164] [cursor=pointer]:
+            - /url: "#/strategy/swing-donchian"
+            - generic [ref=e165]:
+              - heading "唐奇安通道突破（海龟法则）" [level=3] [ref=e166]
+              - generic [ref=e167]: SW·04
+            - paragraph [ref=e168]: 价格创 N 日新高买入、创 M 日新低卖出，用 ATR 统一仓位——趋势暴动年的收割机，胜率仅 35%~45% 但盈亏比极高。
+            - generic [ref=e169]:
+              - generic [ref=e170]: 可交互回测
+              - generic [ref=e171]: 突破
+              - generic [ref=e172]: ATR 仓位
+              - generic [ref=e173]: 海龟法则
+      - generic [ref=e174]:
+        - heading "ETF 策略" [level=2] [ref=e175]
+        - paragraph [ref=e177]: 场内基金：行业轮动、大小盘轮动、网格，低费率 T+1 的工具箱
+        - generic [ref=e178]:
+          - link "ETF 网格交易 ET·01 跌一格买一份、涨一格卖一份的机械化高抛低吸——赚震荡波动的\"格差\"，波动率是网格收益的第一变量。 可交互回测 震荡市 机械化 单边下跌无底" [ref=e179] [cursor=pointer]:
+            - /url: "#/strategy/swing-grid"
+            - generic [ref=e180]:
+              - heading "ETF 网格交易" [level=3] [ref=e181]
+              - generic [ref=e182]: ET·01
+            - paragraph [ref=e183]: 跌一格买一份、涨一格卖一份的机械化高抛低吸——赚震荡波动的"格差"，波动率是网格收益的第一变量。
+            - generic [ref=e184]:
+              - generic [ref=e185]: 可交互回测
+              - generic [ref=e186]: 震荡市
+              - generic [ref=e187]: 机械化
+              - generic [ref=e188]: 单边下跌无底
+          - link "行业 ETF 动量轮动 ET·02 定期把持仓切换到\"过去 N 日涨幅最强\"的行业 ETF——A股行业动量集中在 20 日附近，强者恒强持续数周。 可交互回测 动量 周频/月频 结构性行情" [ref=e189] [cursor=pointer]:
+            - /url: "#/strategy/etf-sector-rotation"
+            - generic [ref=e190]:
+              - heading "行业 ETF 动量轮动" [level=3] [ref=e191]
+              - generic [ref=e192]: ET·02
+            - paragraph [ref=e193]: 定期把持仓切换到"过去 N 日涨幅最强"的行业 ETF——A股行业动量集中在 20 日附近，强者恒强持续数周。
+            - generic [ref=e194]:
+              - generic [ref=e195]: 可交互回测
+              - generic [ref=e196]: 动量
+              - generic [ref=e197]: 周频/月频
+              - generic [ref=e198]: 结构性行情
+          - link "大小盘轮动（二八轮动） ET·03 每周比较沪深300 与中证500/1000 过去 4 周涨幅，持有强者；两者都跌就买债基空仓——最经典的\"趋势+相对强度\"入门策略。 可交互回测 相对强度 趋势择时 入门友好" [ref=e199] [cursor=pointer]:
+            - /url: "#/strategy/etf-size-rotation"
+            - generic [ref=e200]:
+              - heading "大小盘轮动（二八轮动）" [level=3] [ref=e201]
+              - generic [ref=e202]: ET·03
+            - paragraph [ref=e203]: 每周比较沪深300 与中证500/1000 过去 4 周涨幅，持有强者；两者都跌就买债基空仓——最经典的"趋势+相对强度"入门策略。
+            - generic [ref=e204]:
+              - generic [ref=e205]: 可交互回测
+              - generic [ref=e206]: 相对强度
+              - generic [ref=e207]: 趋势择时
+              - generic [ref=e208]: 入门友好
+      - generic [ref=e209]:
+        - heading "中期配置" [level=2] [ref=e210]
+        - paragraph [ref=e212]: 数月尺度：双动量、估值分位，吃的是周期与均值回归的钱
+        - generic [ref=e213]:
+          - link "双动量 + 绝对动量择时 ME·01 相对动量选资产（谁最强），绝对动量决定上不上车（12个月收益>0）——熊市能空仓的轮动，回撤普遍减半。 可交互回测 双动量 跨资产 熊市保护" [ref=e214] [cursor=pointer]:
+            - /url: "#/strategy/medium-dual-momentum"
+            - generic [ref=e215]:
+              - heading "双动量 + 绝对动量择时" [level=3] [ref=e216]
+              - generic [ref=e217]: ME·01
+            - paragraph [ref=e218]: 相对动量选资产（谁最强），绝对动量决定上不上车（12个月收益>0）——熊市能空仓的轮动，回撤普遍减半。
+            - generic [ref=e219]:
+              - generic [ref=e220]: 可交互回测
+              - generic [ref=e221]: 双动量
+              - generic [ref=e222]: 跨资产
+              - generic [ref=e223]: 熊市保护
+          - link "估值百分位定投 / 再平衡 ME·02 PE/PB 处于近 10 年 30% 分位以下加倍定投、70% 分位以上分批卖出——赚\"估值均值回归 + 逆人性\"的钱。 估值分位 定投 低频" [ref=e224] [cursor=pointer]:
+            - /url: "#/strategy/medium-valuation"
+            - generic [ref=e225]:
+              - heading "估值百分位定投 / 再平衡" [level=3] [ref=e226]
+              - generic [ref=e227]: ME·02
+            - paragraph [ref=e228]: PE/PB 处于近 10 年 30% 分位以下加倍定投、70% 分位以上分批卖出——赚"估值均值回归 + 逆人性"的钱。
+            - generic [ref=e229]:
+              - generic [ref=e230]: 估值分位
+              - generic [ref=e231]: 定投
+              - generic [ref=e232]: 低频
+      - generic [ref=e233]:
+        - heading "可转债 T+0" [level=2] [ref=e234]
+        - paragraph [ref=e236]: T+0 + 双低轮动 + 日内，攻守兼备的独特品种
+        - generic [ref=e237]:
+          - link "可转债双低轮动 CB·01 双低 = 价格 + 转股溢价率×100：价格低是债性防御、溢价低是股性进攻，二者相加取\"攻守兼备\"——最经典的转债策略。 可交互回测 双低 周频轮动 反转因子" [ref=e238] [cursor=pointer]:
+            - /url: "#/strategy/cb-dilow"
+            - generic [ref=e239]:
+              - heading "可转债双低轮动" [level=3] [ref=e240]
+              - generic [ref=e241]: CB·01
+            - paragraph [ref=e242]: 双低 = 价格 + 转股溢价率×100：价格低是债性防御、溢价低是股性进攻，二者相加取"攻守兼备"——最经典的转债策略。
+            - generic [ref=e243]:
+              - generic [ref=e244]: 可交互回测
+              - generic [ref=e245]: 双低
+              - generic [ref=e246]: 周频轮动
+              - generic [ref=e247]: 反转因子
+          - link "低价券 / 摊大饼 CB·02 只买价格 <100~103 元的转债博\"债底 + 下修 + 回售\"三重保护；或摊大饼等权持有 20~50 只不择时——转债界的\"固收+\"。 可交互回测 低价 摊大饼 分散" [ref=e248] [cursor=pointer]:
+            - /url: "#/strategy/cb-lowprice"
+            - generic [ref=e249]:
+              - heading "低价券 / 摊大饼" [level=3] [ref=e250]
+              - generic [ref=e251]: CB·02
+            - paragraph [ref=e252]: 只买价格 <100~103 元的转债博"债底 + 下修 + 回售"三重保护；或摊大饼等权持有 20~50 只不择时——转债界的"固收+"。
+            - generic [ref=e253]:
+              - generic [ref=e254]: 可交互回测
+              - generic [ref=e255]: 低价
+              - generic [ref=e256]: 摊大饼
+              - generic [ref=e257]: 分散
+          - link "可转债 T+0 日内 CB·03 T+0 + 无印花税 + 首日后 ±20% 涨跌幅：当日买当日卖、日内网格、正股联动——A股唯一对散户敞开的日内品种。 可交互回测 T+0 日内 高波动" [ref=e258] [cursor=pointer]:
+            - /url: "#/strategy/cb-t0"
+            - generic [ref=e259]:
+              - heading "可转债 T+0 日内" [level=3] [ref=e260]
+              - generic [ref=e261]: CB·03
+            - paragraph [ref=e262]: T+0 + 无印花税 + 首日后 ±20% 涨跌幅：当日买当日卖、日内网格、正股联动——A股唯一对散户敞开的日内品种。
+            - generic [ref=e263]:
+              - generic [ref=e264]: 可交互回测
+              - generic [ref=e265]: T+0
+              - generic [ref=e266]: 日内
+              - generic [ref=e267]: 高波动
+      - generic [ref=e268]:
+        - heading "读法 这份研习室怎么用" [level=2] [ref=e269]:
+          - generic [ref=e270]: 读法
+          - text: 这份研习室怎么用
+        - list [ref=e272]:
+          - listitem [ref=e273]: 先看「情绪周期」（短线分类）：它是所有短线策略的总开关，配了近 80 个交易日的真实涨停池数据。
+          - listitem [ref=e274]: 每个实验室都在撒谎边缘试探：回测有简化（T+1 执行、费率、滑点），请拖动参数观察"参数敏感性"——曲线对参数越敏感，越可能过拟合。
+          - listitem [ref=e275]: 红色代表上涨、绿色代表下跌，遵循 A 股习惯。所有回测引擎口径一致：信号 T 日收盘计算、T+1 开盘价执行、按万分比费率扣费。
+          - listitem [ref=e276]:
+            - text: 数据与方法细节见
+            - link "数据与方法" [ref=e277] [cursor=pointer]:
+              - /url: "#/data"
+            - text: 页。
+      - generic [ref=e278]:
+        - generic [ref=e279]: 数据来源：腾讯财经 · 东方财富（涨停池/转债板块）· 参考 a-stock-data 工具包取数方式
+        - generic [ref=e280]: 仅供学习研究，不构成投资建议 · 回测含简化假设

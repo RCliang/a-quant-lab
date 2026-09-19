@@ -1,0 +1,73 @@
+[    5405ms] [LOG] [Analytics] consent granted; loading SDK @ https://claude.com/_next/static/chunks/3a62b9f890a87ac9.js:12
+[    5623ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[    5670ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.claude.com') does not match the recipient window's origin ('https://claude.com'). @ https://a.claude.com/isolated-segment.html?v=4b337cc041e2:2681
+[    5882ms] [LOG] [Analytics] SDK loaded after consent granted @ https://claude.com/_next/static/chunks/3a62b9f890a87ac9.js:12
+[    6171ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.claude.com') does not match the recipient window's origin ('https://claude.com'). @ https://a.claude.com/isolated-segment.html?v=4b337cc041e2:2681
+[    9648ms] [WARNING] The resource https://claude.com/_next/static/chunks/195c2e474ca3e6f7.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://claude.com/:0
+[   15772ms] [WARNING] The resource https://claude.com/_next/static/chunks/195c2e474ca3e6f7.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://claude.com/:0
+[   35243ms] [WARNING] The resource https://claude.com/_next/static/chunks/195c2e474ca3e6f7.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://claude.com/:0
+[   79121ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://claude.com/_next/static/chunks/17601b196fdbaa69.js:0
+[   79121ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://claude.com/_next/static/chunks/17601b196fdbaa69.js:0
+[   81693ms] [WARNING] The resource https://claude.com/_next/static/chunks/195c2e474ca3e6f7.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://claude.com/:0
+[  138119ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://claude.com/_next/static/chunks/17601b196fdbaa69.js:0
+[  138119ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://claude.com/_next/static/chunks/17601b196fdbaa69.js:0
+[  139620ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://claude.com/_next/static/chunks/17601b196fdbaa69.js:0
+[  139620ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.closed call. @ https://claude.com/_next/static/chunks/17601b196fdbaa69.js:0
+[  141149ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[  141296ms] [INFO] [O11Y] [DatadogRUM] Initialized {service: claude-ai, env: production, version: 127d0ba477} @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4
+[  142925ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://claude.ai/v1/privacy-consents?prefix=cookies.:0
+[  143682ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://a.claude.ai') does not match the recipient window's origin ('https://claude.ai'). @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-5-wLO3aOdd.js:17
+[  143760ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[  225063ms] [INFO] [COMPLETION] Starting completion request (attempt 1, mode=legacy) @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4
+[  354614ms] [INFO] [COMPLETION] Completion request succeeded on attempt 1 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4
+[  526724ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://36kr.com&size=32:0
+[  906799ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=7.6.0&dd-evp-origin=browser&dd-request-id=492d3ef4-a466-4ac7-99d9-44e0243cf62b&dd-evp-encoding=deflate&batch_time=1789787470126&_dd.api=fetch&build_ts=1789775248:0
+[  906801ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/organizations/177e8e69-6ce2-4617-baf9-ebfc025d1951/chat_conversations/a6530fcd-1941-422a-95fc-6990f28aa698/composer_notices:0
+[  906804ms] [WARNING] [REACT_QUERY_CLIENT] QueryClient error: U: Claude isn't available in your region.
+    at uu (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:9:13095)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:103762
+    at async lG (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:109988)
+    at async https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:110366 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4
+[  928694ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/event_logging/v2/batch:0
+[  928695ms] [WARNING] [antalytics] %s failed: flush Error: batch dropped (4xx); 4 events lost
+    at OM.doFlush (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-1-JoXzJyWX.js:2:249261)
+    at async OM.flush (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-1-JoXzJyWX.js:2:248572) @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4
+[  936382ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=7.6.0&dd-evp-origin=browser&dd-request-id=80f17ef7-18b1-441c-97c1-dea9c16f7534&dd-evp-encoding=deflate&batch_time=1789787500129&_dd.api=fetch&build_ts=1789775248:0
+[  937203ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/organizations/177e8e69-6ce2-4617-baf9-ebfc025d1951/chat_conversations/a6530fcd-1941-422a-95fc-6990f28aa698/composer_notices:0
+[  937205ms] [WARNING] [REACT_QUERY_CLIENT] QueryClient error: U: Claude isn't available in your region.
+    at uu (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:9:13095)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:103762
+    at async lG (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:109988)
+    at async https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:110366 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4
+[  967548ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/organizations/177e8e69-6ce2-4617-baf9-ebfc025d1951/chat_conversations/a6530fcd-1941-422a-95fc-6990f28aa698/composer_notices:0
+[  967550ms] [WARNING] [REACT_QUERY_CLIENT] QueryClient error: U: Claude isn't available in your region.
+    at uu (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:9:13095)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:103762
+    at async lG (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:109988)
+    at async https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:110366 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4
+[  967935ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=7.6.0&dd-evp-origin=browser&dd-request-id=a62b460d-beba-4c8c-9b37-547eaa7c3435&dd-evp-encoding=deflate&batch_time=1789787531261&_dd.api=fetch&build_ts=1789775248:0
+[  976609ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/organizations/177e8e69-6ce2-4617-baf9-ebfc025d1951/library/discover/home:0
+[  976609ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/organizations/177e8e69-6ce2-4617-baf9-ebfc025d1951/cowork_plugin_metadata:0
+[  976610ms] [WARNING] [REACT_QUERY_CLIENT] QueryClient error: U: Claude isn't available in your region.
+    at uu (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:9:13095)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:103762
+    at async lG (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:109988)
+    at async https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:110366 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4
+[  976610ms] [WARNING] [REACT_QUERY_CLIENT] QueryClient error: U: Claude isn't available in your region.
+    at uu (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:9:13095)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:103762
+    at async lG (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:109988)
+    at async https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:110366 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4
+[  977082ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/organizations/177e8e69-6ce2-4617-baf9-ebfc025d1951/library/mine?kind=plugin&kind=skill&limit=500&group_by_kind=true:0
+[  977084ms] [WARNING] [REACT_QUERY_CLIENT] QueryClient error: U: Claude isn't available in your region.
+    at uu (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:9:13095)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:103762
+    at async lG (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:109988)
+    at async https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:110366 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4
+[  977084ms] [WARNING] [REACT_QUERY_CLIENT] QueryClient error: U: Claude isn't available in your region.
+    at uu (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:9:13095)
+    at https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:103762
+    at async lG (https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:109988)
+    at async https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-common-mcp-msg-0-D8HcVtVI.js:15:110366 @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4
+[  978009ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=7.6.0&dd-evp-origin=browser&dd-request-id=42dd843a-1056-4297-b668-18e05c2d725d&dd-evp-encoding=deflate&batch_time=1789787541837&_dd.api=fetch&build_ts=1789775248:0
+[  978066ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/api/v2/rum?ddsource=browser&dd-api-key=pub71869dceb5b70dba6123af9ca357d1f9&dd-evp-origin-version=7.6.0&dd-evp-origin=browser&dd-request-id=ba227bf9-9df1-4f02-8ad1-0d8e5effcbc4&dd-evp-encoding=deflate&batch_time=1789787541882&_dd.api=fetch&build_ts=1789775248:0

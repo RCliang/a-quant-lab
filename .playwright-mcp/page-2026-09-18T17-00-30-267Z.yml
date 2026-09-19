@@ -1,0 +1,367 @@
+- generic [ref=f3e2]:
+  - generic [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - generic [ref=f3e6]:
+        - text: 上证指数
+        - generic [ref=f3e7]: ▲ 0.94%
+      - generic [ref=f3e8]:
+        - text: 沪深300
+        - generic [ref=f3e9]: ▲ 1.06%
+      - generic [ref=f3e10]:
+        - text: 创业板指
+        - generic [ref=f3e11]: ▲ 2.25%
+      - generic [ref=f3e12]:
+        - text: 沪深300ETF
+        - generic [ref=f3e13]: ▲ 1.10%
+      - generic [ref=f3e14]:
+        - text: 中证1000ETF
+        - generic [ref=f3e15]: ▲ 2.05%
+      - generic [ref=f3e16]:
+        - text: 半导体ETF
+        - generic [ref=f3e17]: ▲ 4.00%
+      - generic [ref=f3e18]:
+        - text: 酒ETF
+        - generic [ref=f3e19]: ▲ 0.74%
+      - generic [ref=f3e20]:
+        - text: 证券ETF
+        - generic [ref=f3e21]: ▲ 1.44%
+      - generic [ref=f3e22]:
+        - text: 黄金ETF
+        - generic [ref=f3e23]: ▲ 1.73%
+      - generic [ref=f3e24]:
+        - text: 纳指ETF
+        - generic [ref=f3e25]: ▲ 2.21%
+      - generic [ref=f3e26]:
+        - text: 中证转债
+        - generic [ref=f3e27]: ▲ 0.62%
+      - generic [ref=f3e28]:
+        - text: 贵州茅台
+        - generic [ref=f3e29]: ▼ 0.78%
+      - generic [ref=f3e30]:
+        - text: 双低王·闻泰转债
+        - generic [ref=f3e31]: ▲ 0.78%
+      - generic [ref=f3e32]:
+        - text: 溢价王·福莱转债
+        - generic [ref=f3e33]: ▲ 416.36%
+    - generic [ref=f3e34]:
+      - generic [ref=f3e35]:
+        - text: 上证指数
+        - generic [ref=f3e36]: ▲ 0.94%
+      - generic [ref=f3e37]:
+        - text: 沪深300
+        - generic [ref=f3e38]: ▲ 1.06%
+      - generic [ref=f3e39]:
+        - text: 创业板指
+        - generic [ref=f3e40]: ▲ 2.25%
+      - generic [ref=f3e41]:
+        - text: 沪深300ETF
+        - generic [ref=f3e42]: ▲ 1.10%
+      - generic [ref=f3e43]:
+        - text: 中证1000ETF
+        - generic [ref=f3e44]: ▲ 2.05%
+      - generic [ref=f3e45]:
+        - text: 半导体ETF
+        - generic [ref=f3e46]: ▲ 4.00%
+      - generic [ref=f3e47]:
+        - text: 酒ETF
+        - generic [ref=f3e48]: ▲ 0.74%
+      - generic [ref=f3e49]:
+        - text: 证券ETF
+        - generic [ref=f3e50]: ▲ 1.44%
+      - generic [ref=f3e51]:
+        - text: 黄金ETF
+        - generic [ref=f3e52]: ▲ 1.73%
+      - generic [ref=f3e53]:
+        - text: 纳指ETF
+        - generic [ref=f3e54]: ▲ 2.21%
+      - generic [ref=f3e55]:
+        - text: 中证转债
+        - generic [ref=f3e56]: ▲ 0.62%
+      - generic [ref=f3e57]:
+        - text: 贵州茅台
+        - generic [ref=f3e58]: ▼ 0.78%
+      - generic [ref=f3e59]:
+        - text: 双低王·闻泰转债
+        - generic [ref=f3e60]: ▲ 0.78%
+      - generic [ref=f3e61]:
+        - text: 溢价王·福莱转债
+        - generic [ref=f3e62]: ▲ 416.36%
+  - generic [ref=f3e63]:
+    - complementary [ref=f3e64]:
+      - link "A股量化策略研习室 A-SHARE QUANT LAB · 2026" [ref=f3e65] [cursor=pointer]:
+        - /url: "#/"
+        - text: A股量化策略研习室
+        - generic [ref=f3e66]: A-SHARE QUANT LAB · 2026
+      - generic [ref=f3e67]:
+        - generic [ref=f3e68]: 总览
+        - link "-- 策略地图" [ref=f3e69] [cursor=pointer]:
+          - /url: "#/"
+          - generic [ref=f3e70]: "--"
+          - text: 策略地图
+        - link "-- 数据与方法" [ref=f3e71] [cursor=pointer]:
+          - /url: "#/data"
+          - generic [ref=f3e72]: "--"
+          - text: 数据与方法
+      - generic [ref=f3e73]:
+        - generic [ref=f3e74]: 短线 / 打板
+        - link "01 情绪周期与打板择时" [ref=f3e75] [cursor=pointer]:
+          - /url: "#/strategy/short-emotion"
+          - generic [ref=f3e76]: "01"
+          - text: 情绪周期与打板择时
+        - link "02 打板 / 一进二接力" [ref=f3e77] [cursor=pointer]:
+          - /url: "#/strategy/short-daban"
+          - generic [ref=f3e78]: "02"
+          - text: 打板 / 一进二接力
+        - link "03 龙头战法 / 题材动量" [ref=f3e79] [cursor=pointer]:
+          - /url: "#/strategy/short-longtou"
+          - generic [ref=f3e80]: "03"
+          - text: 龙头战法 / 题材动量
+        - link "04 短线量价突破（N日新高 + 放量）" [ref=f3e81] [cursor=pointer]:
+          - /url: "#/strategy/short-breakout"
+          - generic [ref=f3e82]: "04"
+          - text: 短线量价突破（N日新高 + 放量）
+        - link "05 低吸战法（首阴 / 龙回头）" [ref=f3e83] [cursor=pointer]:
+          - /url: "#/strategy/short-lowbuy"
+          - generic [ref=f3e84]: "05"
+          - text: 低吸战法（首阴 / 龙回头）
+      - generic [ref=f3e85]:
+        - generic [ref=f3e86]: 波段
+        - link "01 双均线趋势跟随" [ref=f3e87] [cursor=pointer]:
+          - /url: "#/strategy/swing-ma"
+          - generic [ref=f3e88]: "01"
+          - text: 双均线趋势跟随
+        - link "02 MACD 波段择时" [ref=f3e89] [cursor=pointer]:
+          - /url: "#/strategy/swing-macd"
+          - generic [ref=f3e90]: "02"
+          - text: MACD 波段择时
+        - link "03 布林带均值回归" [ref=f3e91] [cursor=pointer]:
+          - /url: "#/strategy/swing-boll"
+          - generic [ref=f3e92]: "03"
+          - text: 布林带均值回归
+        - link "04 唐奇安通道突破（海龟法则）" [ref=f3e93] [cursor=pointer]:
+          - /url: "#/strategy/swing-donchian"
+          - generic [ref=f3e94]: "04"
+          - text: 唐奇安通道突破（海龟法则）
+      - generic [ref=f3e95]:
+        - generic [ref=f3e96]: ETF 策略
+        - link "01 ETF 网格交易" [ref=f3e97] [cursor=pointer]:
+          - /url: "#/strategy/swing-grid"
+          - generic [ref=f3e98]: "01"
+          - text: ETF 网格交易
+        - link "02 行业 ETF 动量轮动" [ref=f3e99] [cursor=pointer]:
+          - /url: "#/strategy/etf-sector-rotation"
+          - generic [ref=f3e100]: "02"
+          - text: 行业 ETF 动量轮动
+        - link "03 大小盘轮动（二八轮动）" [ref=f3e101] [cursor=pointer]:
+          - /url: "#/strategy/etf-size-rotation"
+          - generic [ref=f3e102]: "03"
+          - text: 大小盘轮动（二八轮动）
+      - generic [ref=f3e103]:
+        - generic [ref=f3e104]: 中期配置
+        - link "01 双动量 + 绝对动量择时" [ref=f3e105] [cursor=pointer]:
+          - /url: "#/strategy/medium-dual-momentum"
+          - generic [ref=f3e106]: "01"
+          - text: 双动量 + 绝对动量择时
+        - link "02 估值百分位定投 / 再平衡" [ref=f3e107] [cursor=pointer]:
+          - /url: "#/strategy/medium-valuation"
+          - generic [ref=f3e108]: "02"
+          - text: 估值百分位定投 / 再平衡
+      - generic [ref=f3e109]:
+        - generic [ref=f3e110]: 可转债 T+0
+        - link "01 可转债双低轮动" [ref=f3e111] [cursor=pointer]:
+          - /url: "#/strategy/cb-dilow"
+          - generic [ref=f3e112]: "01"
+          - text: 可转债双低轮动
+        - link "02 低价券 / 摊大饼" [ref=f3e113] [cursor=pointer]:
+          - /url: "#/strategy/cb-lowprice"
+          - generic [ref=f3e114]: "02"
+          - text: 低价券 / 摊大饼
+        - link "03 可转债 T+0 日内" [ref=f3e115] [cursor=pointer]:
+          - /url: "#/strategy/cb-t0"
+          - generic [ref=f3e116]: "03"
+          - text: 可转债 T+0 日内
+    - main [ref=f3e117]:
+      - generic [ref=f3e118]:
+        - generic [ref=f3e119]:
+          - generic [ref=f3e120]: ETF 策略 · 02 / 3
+          - heading "行业 ETF 动量轮动" [level=1] [ref=f3e121]
+          - paragraph [ref=f3e122]: 定期把持仓切换到"过去 N 日涨幅最强"的行业 ETF——A股行业动量集中在 20 日附近，强者恒强持续数周。
+          - generic [ref=f3e123]:
+            - generic [ref=f3e124]: 动量
+            - generic [ref=f3e125]: 周频/月频
+            - generic [ref=f3e126]: 结构性行情
+        - generic [ref=f3e127]:
+          - heading "LIVE 行业 ETF 轮动回测实验室（12只行业ETF）" [level=2] [ref=f3e128]:
+            - generic [ref=f3e129]: LIVE
+            - text: 行业 ETF 轮动回测实验室（12只行业ETF）
+          - generic [ref=f3e130]:
+            - generic [ref=f3e131]:
+              - generic [ref=f3e132]:
+                - generic [ref=f3e133]: ETF 池
+                - combobox [ref=f3e134]:
+                  - option "行业ETF池（12只）" [selected]
+                  - option "宽基大小盘池（4只）"
+                  - option "多资产双动量池（6只·含黄金/国债/纳指）"
+              - generic [ref=f3e135]:
+                - generic [ref=f3e136]:
+                  - text: 动量窗口
+                  - status "动量窗口" [ref=f3e137]: 20日
+                - slider [ref=f3e138] [cursor=pointer]: "20"
+              - generic [ref=f3e139]:
+                - generic [ref=f3e140]:
+                  - text: 持有数量
+                  - status "持有数量" [ref=f3e141]: 3只
+                - slider [ref=f3e142] [cursor=pointer]: "3"
+              - generic [ref=f3e143]:
+                - generic [ref=f3e144]:
+                  - text: 调仓间隔
+                  - status "调仓间隔" [ref=f3e145]: 10日
+                - slider [ref=f3e146] [cursor=pointer]: "10"
+              - generic [ref=f3e147]:
+                - generic [ref=f3e148]:
+                  - text: 单边费率
+                  - status "单边费率" [ref=f3e149]: 10‱
+                - slider [ref=f3e150] [cursor=pointer]: "10"
+              - generic [ref=f3e153] [cursor=pointer]:
+                - checkbox "绝对动量过滤（动量≤0 空仓）" [ref=f3e154]
+                - text: 绝对动量过滤（动量≤0 空仓）
+            - generic [ref=f3e158]:
+              - generic [ref=f3e159]:
+                - generic [ref=f3e160]: 策略年化
+                - text: 2.8%
+              - generic [ref=f3e161]:
+                - generic [ref=f3e162]: 等权基准年化
+                - text: 8.5%
+              - generic [ref=f3e163]:
+                - generic [ref=f3e164]: 最大回撤
+                - text: "-67.8%"
+              - generic [ref=f3e165]:
+                - generic [ref=f3e166]: 基准回撤
+                - text: "-43.0%"
+              - generic [ref=f3e167]:
+                - generic [ref=f3e168]: 夏普
+                - text: "0.24"
+              - generic [ref=f3e169]:
+                - generic [ref=f3e170]: 平均仓位
+                - text: 100.0%
+              - generic [ref=f3e171]:
+                - generic [ref=f3e172]: 最近持仓名单
+                - text: 银行ETF · 军工ETF · 有色金属ETF
+        - generic [ref=f3e173]:
+          - heading "01 原理" [level=2] [ref=f3e174]:
+            - generic [ref=f3e175]: "01"
+            - text: 原理
+          - generic [ref=f3e176]:
+            - paragraph [ref=f3e177]: 每周末对行业 ETF 池按近期涨幅排序，持有前 N 名一周/一月，下周重排。多周期复合版动量分 = R20×20% + R60×30% + R120×30% + R250×20%，持有前 5 名等权。回测 2023.1-2026.6：年化 18.6%（同期沪深300 −2.3%）、最大回撤 −9.2%、夏普 1.28。
+            - generic [ref=f3e178]: 券商研报也有反例：东财《基于动量和反转的行业轮动》回测年化仅 6.12%、回撤 −35.23%——动量不是稳赢，参数与执行方式差异巨大，务必自己用下方实验室验证。
+        - generic [ref=f3e179]:
+          - heading "02 可量化规则" [level=2] [ref=f3e180]:
+            - generic [ref=f3e181]: "02"
+            - text: 可量化规则
+          - list [ref=f3e183]:
+            - listitem [ref=f3e184]:
+              - generic [ref=f3e185]: 构建 ETF 池
+              - text: 12~18 只流动性好的行业 ETF（证券、酒、医药、半导体、新能源车、银行、军工、有色…），剔除规模<2亿的。
+            - listitem [ref=f3e186]:
+              - generic [ref=f3e187]: 计算动量分
+              - text: 每周（或每月）末计算各 ETF 的 N 日收益率（或 R20/R60/R120/R250 复合加权）。
+            - listitem [ref=f3e188]:
+              - generic [ref=f3e189]: 持有前 N 名
+              - text: 等权买入动量最强的 2~5 只；若做绝对动量过滤，动量 ≤0 的名额空仓。
+            - listitem [ref=f3e190]:
+              - generic [ref=f3e191]: 定期轮动
+              - text: 每 5~20 个交易日重排一次，卖出跌出排名的、换入新晋级的；单只 ETF 可加 −10% 止损。
+        - generic [ref=f3e192]:
+          - heading "03 关键参数" [level=2] [ref=f3e193]:
+            - generic [ref=f3e194]: "03"
+            - text: 关键参数
+          - table [ref=f3e196]:
+            - rowgroup [ref=f3e197]:
+              - row [ref=f3e198]:
+                - columnheader "参数" [ref=f3e199]
+                - columnheader "典型取值" [ref=f3e200]
+                - columnheader "说明" [ref=f3e201]
+            - rowgroup [ref=f3e202]:
+              - row [ref=f3e203]:
+                - cell "动量窗口" [ref=f3e204]
+                - cell "20 日为主（10~120 均有）" [ref=f3e205]
+                - cell "A股 20 日附近最有效；5 日做拐点确认" [ref=f3e206]
+              - row [ref=f3e207]:
+                - cell "持有数" [ref=f3e208]
+                - cell "2~5 只" [ref=f3e209]
+                - cell "集中弹性大、分散平滑" [ref=f3e210]
+              - row [ref=f3e211]:
+                - cell "调仓频率" [ref=f3e212]
+                - cell "周度常见 / 月度最稳" [ref=f3e213]
+                - cell "年换手可达 800%~2000%，成本敏感" [ref=f3e214]
+              - row [ref=f3e215]:
+                - cell "绝对动量" [ref=f3e216]
+                - cell "可选：N日收益≤0 空仓" [ref=f3e217]
+                - cell "熊市的保命开关，回撤普遍减半" [ref=f3e218]
+        - generic [ref=f3e219]:
+          - heading "04 适用与失效行情" [level=2] [ref=f3e220]:
+            - generic [ref=f3e221]: "04"
+            - text: 适用与失效行情
+          - list [ref=f3e223]:
+            - listitem [ref=f3e224]: 适用：结构性行情（2019-21 赛道牛、2025 科技牛），行业分化越大越好。
+            - listitem [ref=f3e225]: 失效：快速轮动的"电风扇"行情（2022-23 一日游）；无绝对动量过滤时熊市满仓挨打。
+            - listitem [ref=f3e226]: 近两年行业轮动加速，月度动量有效性下降、部分机构转向周频多因子。
+        - generic [ref=f3e227]:
+          - heading "05 优点 · 缺点 · 陷阱" [level=2] [ref=f3e228]:
+            - generic [ref=f3e229]: "05"
+            - text: 优点 · 缺点 · 陷阱
+          - generic [ref=f3e230]:
+            - generic [ref=f3e231]: 周频轮动对交易成本与滑点极敏感：趋势轮动策略成本为 0 时年化约 25%，成本千 2 时降到 15.97%、回撤 −36.28%。实测年化差距可达 3~9 个百分点。ETF 佣金要谈到万 1 以下。
+            - generic [ref=f3e232]: RPS 变体：用"250 日涨幅全市场百分位 ≥87~90"做入选过滤（欧奈尔 RPS），配合接近 52 周新高，可显著减少假信号。
+        - generic [ref=f3e233]:
+          - heading "06 公开回测数据" [level=2] [ref=f3e234]:
+            - generic [ref=f3e235]: "06"
+            - text: 公开回测数据
+          - table [ref=f3e237]:
+            - rowgroup [ref=f3e238]:
+              - row [ref=f3e239]:
+                - columnheader "口径" [ref=f3e240]
+                - columnheader "回测结果" [ref=f3e241]
+                - columnheader "来源" [ref=f3e242]
+            - rowgroup [ref=f3e243]:
+              - row [ref=f3e244]:
+                - cell "多周期复合动量（2023-2026）" [ref=f3e245]
+                - cell "年化 18.6% / 回撤 −9.2% / 夏普 1.28" [ref=f3e246]
+                - cell "agents-quant" [ref=f3e247]
+              - row [ref=f3e248]:
+                - cell "EarlETF 经典版（周频）" [ref=f3e249]
+                - cell "2021 年迄今收益 20%+，但 2023 跑输沪深300" [ref=f3e250]
+                - cell "雪球/Blog 复盘" [ref=f3e251]
+              - row [ref=f3e252]:
+                - cell "学术版（复合动量+协方差优化）" [ref=f3e253]
+                - cell "2021-2025 累计 74.81%、回撤 −25.97%" [ref=f3e254]
+                - cell "汉斯出版社论文" [ref=f3e255]
+              - row [ref=f3e256]:
+                - cell "东财研报动量+反转" [ref=f3e257]
+                - cell "年化 6.12% / 回撤 −35.23%" [ref=f3e258]
+                - cell "东方财富研报" [ref=f3e259]
+        - generic [ref=f3e260]:
+          - heading "REF 来源与延伸阅读" [level=2] [ref=f3e261]:
+            - generic [ref=f3e262]: REF
+            - text: 来源与延伸阅读
+          - list [ref=f3e264]:
+            - listitem [ref=f3e265]:
+              - link "https://agents-quant.com/blog/etf-rotation-strategy" [ref=f3e266] [cursor=pointer]:
+                - /url: https://agents-quant.com/blog/etf-rotation-strategy
+            - listitem [ref=f3e267]:
+              - link "https://www.hanspub.org" [ref=f3e268] [cursor=pointer]:
+                - /url: https://www.hanspub.org
+            - listitem [ref=f3e269]:
+              - link "https://pdf.dfcfw.com" [ref=f3e270] [cursor=pointer]:
+                - /url: https://pdf.dfcfw.com
+            - listitem [ref=f3e271]:
+              - link "https://guorn.com" [ref=f3e272] [cursor=pointer]:
+                - /url: https://guorn.com
+        - navigation [ref=f3e273]:
+          - link "← ETF 网格交易" [ref=f3e274] [cursor=pointer]:
+            - /url: "#/strategy/swing-grid"
+          - link "大小盘轮动（二八轮动） →" [ref=f3e275] [cursor=pointer]:
+            - /url: "#/strategy/etf-size-rotation"
+        - generic [ref=f3e276]:
+          - generic [ref=f3e277]: 数据来源：腾讯财经 · 东方财富（涨停池/转债板块）· 参考 a-stock-data 工具包取数方式
+          - generic [ref=f3e278]: 仅供学习研究，不构成投资建议 · 回测含简化假设

@@ -1,0 +1,4 @@
+[     418ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://claude.ai/manifest.json:0
+[     418ms] [ERROR] Manifest fetch from https://claude.ai/manifest.json failed, code 403 @ https://claude.ai/login/popup-google-auth:35
+[     930ms] [INFO] [O11Y] [DatadogRUM] Initialized {service: claude-ai, env: production, version: 127d0ba477} @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4
+[    1240ms] [LOG] recaptchacompat disabled @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-6xNogGuE.js:4

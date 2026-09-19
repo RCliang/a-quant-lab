@@ -1,0 +1,69 @@
+# GitHub Pages 部署工作流
+# - push 到 main 自动构建发布
+# - 每个工作日 18:00（北京时间，UTC 10:00）自动更新数据后重新发布
+#
+# 前置（一次性，在 GitHub 仓库设置里）：
+#   Settings → Pages → Source 选 "GitHub Actions"
+#   （私有仓库需要 GitHub Pro；公开仓库免费。不想公开可选 Cloudflare Pages，支持私有仓库。）
+#
+# 若部署到项目页（username.github.io/仓库名/），把下面 build 步骤的 env 打开：
+#   VITE_BASE: /<仓库名>/
+# 自定义域名或 user.github.io 根路径则保持 VITE_BASE 不设。
+name: deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 10 * * 1-5'   # UTC 10:00 = 北京时间 18:00，工作日
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      # 海外 runner 访问腾讯/东财接口通常可用；任一模块失败不阻断发布（保留仓库里的上期数据）
+      - name: 更新数据（失败不阻断）
+        run: |
+          for mod in klines cb emotion; do
+            echo "--- $mod ---"
+            python3 scripts/fetch_data.py "$mod" || echo "!! $mod failed, keep previous data"
+          done
+        timeout-minutes: 20
+
+      - name: 构建
+        run: |
+          cd web
+          npm ci
+          npm run build
+        # env:
+        #   VITE_BASE: /<仓库名>/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+      - uses: actions/deploy-pages@v4

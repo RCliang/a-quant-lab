@@ -1,0 +1,324 @@
+- generic [ref=f2e2]:
+  - generic [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - generic [ref=f2e6]:
+        - text: 上证指数
+        - generic [ref=f2e7]: ▲ 0.94%
+      - generic [ref=f2e8]:
+        - text: 沪深300
+        - generic [ref=f2e9]: ▲ 1.06%
+      - generic [ref=f2e10]:
+        - text: 创业板指
+        - generic [ref=f2e11]: ▲ 2.25%
+      - generic [ref=f2e12]:
+        - text: 沪深300ETF
+        - generic [ref=f2e13]: ▲ 1.10%
+      - generic [ref=f2e14]:
+        - text: 中证1000ETF
+        - generic [ref=f2e15]: ▲ 2.05%
+      - generic [ref=f2e16]:
+        - text: 半导体ETF
+        - generic [ref=f2e17]: ▲ 4.00%
+      - generic [ref=f2e18]:
+        - text: 酒ETF
+        - generic [ref=f2e19]: ▲ 0.74%
+      - generic [ref=f2e20]:
+        - text: 证券ETF
+        - generic [ref=f2e21]: ▲ 1.44%
+      - generic [ref=f2e22]:
+        - text: 黄金ETF
+        - generic [ref=f2e23]: ▲ 1.73%
+      - generic [ref=f2e24]:
+        - text: 纳指ETF
+        - generic [ref=f2e25]: ▲ 2.21%
+      - generic [ref=f2e26]:
+        - text: 中证转债
+        - generic [ref=f2e27]: ▲ 0.62%
+      - generic [ref=f2e28]:
+        - text: 贵州茅台
+        - generic [ref=f2e29]: ▼ 0.78%
+      - generic [ref=f2e30]:
+        - text: 双低王·闻泰转债
+        - generic [ref=f2e31]: ▲ 0.78%
+      - generic [ref=f2e32]:
+        - text: 溢价王·福莱转债
+        - generic [ref=f2e33]: ▲ 416.36%
+    - generic [ref=f2e34]:
+      - generic [ref=f2e35]:
+        - text: 上证指数
+        - generic [ref=f2e36]: ▲ 0.94%
+      - generic [ref=f2e37]:
+        - text: 沪深300
+        - generic [ref=f2e38]: ▲ 1.06%
+      - generic [ref=f2e39]:
+        - text: 创业板指
+        - generic [ref=f2e40]: ▲ 2.25%
+      - generic [ref=f2e41]:
+        - text: 沪深300ETF
+        - generic [ref=f2e42]: ▲ 1.10%
+      - generic [ref=f2e43]:
+        - text: 中证1000ETF
+        - generic [ref=f2e44]: ▲ 2.05%
+      - generic [ref=f2e45]:
+        - text: 半导体ETF
+        - generic [ref=f2e46]: ▲ 4.00%
+      - generic [ref=f2e47]:
+        - text: 酒ETF
+        - generic [ref=f2e48]: ▲ 0.74%
+      - generic [ref=f2e49]:
+        - text: 证券ETF
+        - generic [ref=f2e50]: ▲ 1.44%
+      - generic [ref=f2e51]:
+        - text: 黄金ETF
+        - generic [ref=f2e52]: ▲ 1.73%
+      - generic [ref=f2e53]:
+        - text: 纳指ETF
+        - generic [ref=f2e54]: ▲ 2.21%
+      - generic [ref=f2e55]:
+        - text: 中证转债
+        - generic [ref=f2e56]: ▲ 0.62%
+      - generic [ref=f2e57]:
+        - text: 贵州茅台
+        - generic [ref=f2e58]: ▼ 0.78%
+      - generic [ref=f2e59]:
+        - text: 双低王·闻泰转债
+        - generic [ref=f2e60]: ▲ 0.78%
+      - generic [ref=f2e61]:
+        - text: 溢价王·福莱转债
+        - generic [ref=f2e62]: ▲ 416.36%
+  - generic [ref=f2e63]:
+    - complementary [ref=f2e64]:
+      - link "A股量化策略研习室 A-SHARE QUANT LAB · 2026" [ref=f2e65] [cursor=pointer]:
+        - /url: "#/"
+        - text: A股量化策略研习室
+        - generic [ref=f2e66]: A-SHARE QUANT LAB · 2026
+      - generic [ref=f2e67]:
+        - generic [ref=f2e68]: 总览
+        - link "-- 策略地图" [ref=f2e69] [cursor=pointer]:
+          - /url: "#/"
+          - generic [ref=f2e70]: "--"
+          - text: 策略地图
+        - link "-- 数据与方法" [ref=f2e71] [cursor=pointer]:
+          - /url: "#/data"
+          - generic [ref=f2e72]: "--"
+          - text: 数据与方法
+      - generic [ref=f2e73]:
+        - generic [ref=f2e74]: 短线 / 打板
+        - link "01 情绪周期与打板择时" [ref=f2e75] [cursor=pointer]:
+          - /url: "#/strategy/short-emotion"
+          - generic [ref=f2e76]: "01"
+          - text: 情绪周期与打板择时
+        - link "02 打板 / 一进二接力" [ref=f2e77] [cursor=pointer]:
+          - /url: "#/strategy/short-daban"
+          - generic [ref=f2e78]: "02"
+          - text: 打板 / 一进二接力
+        - link "03 龙头战法 / 题材动量" [ref=f2e79] [cursor=pointer]:
+          - /url: "#/strategy/short-longtou"
+          - generic [ref=f2e80]: "03"
+          - text: 龙头战法 / 题材动量
+        - link "04 短线量价突破（N日新高 + 放量）" [ref=f2e81] [cursor=pointer]:
+          - /url: "#/strategy/short-breakout"
+          - generic [ref=f2e82]: "04"
+          - text: 短线量价突破（N日新高 + 放量）
+        - link "05 低吸战法（首阴 / 龙回头）" [ref=f2e83] [cursor=pointer]:
+          - /url: "#/strategy/short-lowbuy"
+          - generic [ref=f2e84]: "05"
+          - text: 低吸战法（首阴 / 龙回头）
+      - generic [ref=f2e85]:
+        - generic [ref=f2e86]: 波段
+        - link "01 双均线趋势跟随" [ref=f2e87] [cursor=pointer]:
+          - /url: "#/strategy/swing-ma"
+          - generic [ref=f2e88]: "01"
+          - text: 双均线趋势跟随
+        - link "02 MACD 波段择时" [ref=f2e89] [cursor=pointer]:
+          - /url: "#/strategy/swing-macd"
+          - generic [ref=f2e90]: "02"
+          - text: MACD 波段择时
+        - link "03 布林带均值回归" [ref=f2e91] [cursor=pointer]:
+          - /url: "#/strategy/swing-boll"
+          - generic [ref=f2e92]: "03"
+          - text: 布林带均值回归
+        - link "04 唐奇安通道突破（海龟法则）" [ref=f2e93] [cursor=pointer]:
+          - /url: "#/strategy/swing-donchian"
+          - generic [ref=f2e94]: "04"
+          - text: 唐奇安通道突破（海龟法则）
+      - generic [ref=f2e95]:
+        - generic [ref=f2e96]: ETF 策略
+        - link "01 ETF 网格交易" [ref=f2e97] [cursor=pointer]:
+          - /url: "#/strategy/swing-grid"
+          - generic [ref=f2e98]: "01"
+          - text: ETF 网格交易
+        - link "02 行业 ETF 动量轮动" [ref=f2e99] [cursor=pointer]:
+          - /url: "#/strategy/etf-sector-rotation"
+          - generic [ref=f2e100]: "02"
+          - text: 行业 ETF 动量轮动
+        - link "03 大小盘轮动（二八轮动）" [ref=f2e101] [cursor=pointer]:
+          - /url: "#/strategy/etf-size-rotation"
+          - generic [ref=f2e102]: "03"
+          - text: 大小盘轮动（二八轮动）
+      - generic [ref=f2e103]:
+        - generic [ref=f2e104]: 中期配置
+        - link "01 双动量 + 绝对动量择时" [ref=f2e105] [cursor=pointer]:
+          - /url: "#/strategy/medium-dual-momentum"
+          - generic [ref=f2e106]: "01"
+          - text: 双动量 + 绝对动量择时
+        - link "02 估值百分位定投 / 再平衡" [ref=f2e107] [cursor=pointer]:
+          - /url: "#/strategy/medium-valuation"
+          - generic [ref=f2e108]: "02"
+          - text: 估值百分位定投 / 再平衡
+      - generic [ref=f2e109]:
+        - generic [ref=f2e110]: 可转债 T+0
+        - link "01 可转债双低轮动" [ref=f2e111] [cursor=pointer]:
+          - /url: "#/strategy/cb-dilow"
+          - generic [ref=f2e112]: "01"
+          - text: 可转债双低轮动
+        - link "02 低价券 / 摊大饼" [ref=f2e113] [cursor=pointer]:
+          - /url: "#/strategy/cb-lowprice"
+          - generic [ref=f2e114]: "02"
+          - text: 低价券 / 摊大饼
+        - link "03 可转债 T+0 日内" [ref=f2e115] [cursor=pointer]:
+          - /url: "#/strategy/cb-t0"
+          - generic [ref=f2e116]: "03"
+          - text: 可转债 T+0 日内
+    - main [ref=f2e117]:
+      - generic [ref=f2e118]:
+        - generic [ref=f2e119]:
+          - generic [ref=f2e120]: 可转债 T+0 · 02 / 3
+          - heading "低价券 / 摊大饼" [level=1] [ref=f2e495]
+          - paragraph [ref=f2e122]: 只买价格 <100~103 元的转债博"债底 + 下修 + 回售"三重保护；或摊大饼等权持有 20~50 只不择时——转债界的"固收+"。
+          - generic [ref=f2e123]:
+            - generic [ref=f2e496]: 低价
+            - generic [ref=f2e497]: 摊大饼
+            - generic [ref=f2e498]: 分散
+        - generic [ref=f2e127]:
+          - heading "LIVE 低价券轮动回测实验室（真实日K · 2023起 · 含退市券）" [level=2] [ref=f2e499]:
+            - generic [ref=f2e129]: LIVE
+            - text: 低价券轮动回测实验室（真实日K · 2023起 · 含退市券）
+          - generic [ref=f2e500]:
+            - generic [ref=f2e501]:
+              - generic [ref=f2e502]:
+                - generic [ref=f2e503]:
+                  - text: 持有只数
+                  - status "持有只数" [ref=f2e504]: 10只
+                - slider [ref=f2e505] [cursor=pointer]: "10"
+              - generic [ref=f2e506]:
+                - generic [ref=f2e507]:
+                  - text: 调仓间隔
+                  - status "调仓间隔" [ref=f2e508]: 5日
+                - slider [ref=f2e509] [cursor=pointer]: "5"
+              - generic [ref=f2e510]:
+                - generic [ref=f2e511]:
+                  - text: 价格下限
+                  - status "价格下限" [ref=f2e512]: 100元
+                - slider [ref=f2e513] [cursor=pointer]: "100"
+              - generic [ref=f2e514]:
+                - generic [ref=f2e515]:
+                  - text: 价格上限
+                  - status "价格上限" [ref=f2e516]: 150元
+                - slider [ref=f2e517] [cursor=pointer]: "150"
+              - generic [ref=f2e518]:
+                - generic [ref=f2e519]:
+                  - text: 单边费率
+                  - status "单边费率" [ref=f2e520]: 15‱
+                - slider [ref=f2e521] [cursor=pointer]: "15"
+            - generic [ref=f2e523]: 宇宙：上市≤2022-07-01 且未在窗口前退市的全部转债（含期间退市券，缓解幸存者偏差；价格序列按退市日截断，代码复用段已剔除）。策略按价格最低 N 只等权轮动，未含溢价率历史（公开源缺失），双低版请结合上方散点理解。
+        - generic [ref=f2e140]:
+          - heading "01 原理" [level=2] [ref=f2e141]:
+            - generic [ref=f2e142]: "01"
+            - text: 原理
+          - generic [ref=f2e143]:
+            - paragraph [ref=f2e144]: 低价券策略：只买面值附近的转债，跌不动（债底）、涨得动（期权），依靠下修转股价与回售条款提供保护。BigQuant 回测（<100 元、前 5 只、每 10 日调仓）2018-2025 年化约 9.77%。摊大饼：按双低/低价建池、等权持有 20~50 只、每周或每月轮动，"满仓轮动、多分散"，基准是转债等权指数。
+            - generic [ref=f2e145]: 下方回测用全部真实日 K（含期间退市券以缓解幸存者偏差——搜特这类违约券仍在宇宙中，它教会你低价策略的真正风险）。由于公开源缺失溢价率历史，这里是价格轮动；把价格上限调到 150、只数调到 20，体会"摊大饼"的平滑。
+        - generic [ref=f2e146]:
+          - heading "02 可量化规则" [level=2] [ref=f2e147]:
+            - generic [ref=f2e148]: "02"
+            - text: 可量化规则
+          - list [ref=f2e150]:
+            - listitem [ref=f2e151]:
+              - generic [ref=f2e152]: 建池
+              - text: 价格 <100~103 元（低价版）或按双低/低价排全市场前 20~50 只（摊大饼版）；剔除 ST 正股、B/C 评级、剩余规模过小、已公告强赎。
+            - listitem [ref=f2e153]:
+              - generic [ref=f2e154]: 等权买入
+              - text: 低价版取前 5~10 只；摊大饼版 20~50 只等权（五位数资金 10~20 只，六位数 20~30 只）。
+            - listitem [ref=f2e155]:
+              - generic [ref=f2e156]: 轮动
+              - text: 每 10 个交易日（或每周/每月）重排：跌出池子的换出、新进的换入。
+            - listitem [ref=f2e157]:
+              - generic [ref=f2e158]: 纪律
+              - text: 不择时、不满仓单一行业；YTM>0 优先（即使永远不涨也有正回报）。
+        - generic [ref=f2e159]:
+          - heading "03 关键参数" [level=2] [ref=f2e160]:
+            - generic [ref=f2e161]: "03"
+            - text: 关键参数
+          - table [ref=f2e163]:
+            - rowgroup [ref=f2e164]:
+              - row [ref=f2e352]:
+                - columnheader "参数" [ref=f2e353]
+                - columnheader "典型取值" [ref=f2e354]
+                - columnheader "说明" [ref=f2e355]
+            - rowgroup [ref=f2e169]:
+              - row [ref=f2e524]:
+                - cell "价格上限" [ref=f2e525]
+                - cell "100~103 元（低价版）" [ref=f2e526]
+                - cell "高于此进入双低逻辑" [ref=f2e527]
+              - row [ref=f2e528]:
+                - cell "持有数" [ref=f2e456]
+                - cell "5~50 只" [ref=f2e529]
+                - cell "低价集中、摊大饼分散" [ref=f2e530]
+              - row [ref=f2e531]:
+                - cell "调仓间隔" [ref=f2e532]
+                - cell "10 日 / 每周 / 每月" [ref=f2e533]
+                - cell "低频为主，成本敏感度低" [ref=f2e534]
+        - generic [ref=f2e190]:
+          - heading "04 适用与失效行情" [level=2] [ref=f2e191]:
+            - generic [ref=f2e192]: "04"
+            - text: 适用与失效行情
+          - list [ref=f2e194]:
+            - listitem [ref=f2e195]: 适用：转债市场整体估值低位；熊市尾部与震荡市布局。
+            - listitem [ref=f2e196]: 失效：信用风险暴露期（2024 岭南违约冲击低价池）；退市新规下"面值保底"信仰破灭——搜特转债直接跌到 18 元退市。
+        - generic [ref=f2e198]:
+          - heading "05 优点 · 缺点 · 陷阱" [level=2] [ref=f2e199]:
+            - generic [ref=f2e200]: "05"
+            - text: 优点 · 缺点 · 陷阱
+          - generic [ref=f2e201]: 低价 ≠ 无风险：低价券池聚集了信用最差的发行人。2023-2024 之前"闭眼买低价"年化 20%+ 的时代已经结束，信用过滤（评级/盈利/回售资金）是现在的必修课。
+        - generic [ref=f2e372]:
+          - heading "06 公开回测数据" [level=2] [ref=f2e373]:
+            - generic [ref=f2e374]: "06"
+            - text: 公开回测数据
+          - table [ref=f2e376]:
+            - rowgroup [ref=f2e377]:
+              - row [ref=f2e378]:
+                - columnheader "口径" [ref=f2e379]
+                - columnheader "回测结果" [ref=f2e380]
+                - columnheader "来源" [ref=f2e381]
+            - rowgroup [ref=f2e382]:
+              - row [ref=f2e535]:
+                - cell "低价券 <100元（2018-2025）" [ref=f2e536]
+                - cell "年化约 9.77%" [ref=f2e537]
+                - cell "BigQuant" [ref=f2e538]
+              - row [ref=f2e539]:
+                - cell "低价 vs 高YTM" [ref=f2e540]
+                - cell "低价弹性更大、长期超额更多" [ref=f2e541]
+                - cell "申万固收研究" [ref=f2e542]
+        - generic [ref=f2e204]:
+          - heading "REF 来源与延伸阅读" [level=2] [ref=f2e205]:
+            - generic [ref=f2e206]: REF
+            - text: 来源与延伸阅读
+          - list [ref=f2e208]:
+            - listitem [ref=f2e543]:
+              - link "https://bigquant.com" [ref=f2e544] [cursor=pointer]:
+                - /url: https://bigquant.com
+            - listitem [ref=f2e545]:
+              - link "https://www.nafmii.org.cn" [ref=f2e546] [cursor=pointer]:
+                - /url: https://www.nafmii.org.cn
+            - listitem [ref=f2e547]:
+              - link "https://zhuanlan.zhihu.com" [ref=f2e548] [cursor=pointer]:
+                - /url: https://zhuanlan.zhihu.com
+        - navigation [ref=f2e215]:
+          - link "← 可转债双低轮动" [ref=f2e549] [cursor=pointer]:
+            - /url: "#/strategy/cb-dilow"
+          - link "可转债 T+0 日内 →" [ref=f2e550] [cursor=pointer]:
+            - /url: "#/strategy/cb-t0"
+        - generic [ref=f2e218]:
+          - generic [ref=f2e219]: 数据来源：腾讯财经 · 东方财富（涨停池/转债板块）· 参考 a-stock-data 工具包取数方式
+          - generic [ref=f2e220]: 仅供学习研究，不构成投资建议 · 回测含简化假设

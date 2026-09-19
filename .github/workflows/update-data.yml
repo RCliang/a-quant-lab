@@ -1,0 +1,50 @@
+# 每日数据更新（配合 Cloudflare Pages 的 Git 集成）：
+# 工作日北京时间 18:00 抓新数据 → 有变化则提交推送 → Cloudflare Pages 检测到 push 自动重建发布。
+#
+# ⚠️ 用了这个工作流后，请删除/停用 deploy.yml（GitHub Pages 工作流），二选一。
+# 手动触发也可用：GitHub 仓库 → Actions → update-data → Run workflow
+name: update-data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 10 * * 1-5'   # UTC 10:00 = 北京时间 18:00，工作日
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 取数脚本零第三方依赖（纯标准库）。海外 runner 访问腾讯/东财接口通常可用；
+      # 任一模块失败不阻断（保留上一期数据，页面新鲜度横条会如实显示）。
+      - name: 抓取最新数据
+        run: |
+          for mod in klines cb emotion; do
+            echo "--- $mod ---"
+            python3 scripts/fetch_data.py "$mod" || echo "!! $mod failed, keep previous data"
+          done
+        timeout-minutes: 20
+
+      - name: 有变化才提交推送
+        run: |
+          git config user.name  "data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add web/public/data
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过"
+          else
+            git commit -m "data: 盘后更新 $(date +%F)"
+            git push
+          fi
