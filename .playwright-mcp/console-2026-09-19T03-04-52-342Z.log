@@ -1,9 +1,0 @@
-[  412213ms] Uncaught TypeError: Cannot read properties of null (reading 'style')
-    at t.onmouseover (https://staticx.36krcdn.com/36kr-web/static/app.70be7019.js:1:1208264)
-[  412228ms] Uncaught TypeError: Cannot read properties of null (reading 'style')
-    at t.onmouseout (https://staticx.36krcdn.com/36kr-web/static/app.70be7019.js:1:1208358)
-[  412503ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://www.36kr.com/p/3893827784194564:0
-[  439936ms] Uncaught TypeError: Cannot read properties of null (reading 'style')
-    at t.onmouseover (https://staticx.36krcdn.com/36kr-web/static/app.70be7019.js:1:1208264)
-[  439951ms] Uncaught TypeError: Cannot read properties of null (reading 'style')
-    at t.onmouseout (https://staticx.36krcdn.com/36kr-web/static/app.70be7019.js:1:1208358)
