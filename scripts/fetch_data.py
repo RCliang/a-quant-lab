@@ -19,7 +19,8 @@ from fetch_lib import (tencent_daily_kline, tencent_minute_kline, tencent_quote,
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 OUT = os.path.join(ROOT, "web", "public", "data")
-TODAY = "2026-09-18"
+# 抓取截止日 = 今天（此前硬编码 2026-09-18，导致自动更新永远抓不到新数据）
+TODAY = dt.date.today().isoformat()
 
 os.makedirs(OUT, exist_ok=True)
 
@@ -55,9 +56,38 @@ STOCKS = {
 }
 
 
+def extend_with_sina(code: str, base_path: str):
+    """腾讯故障降级：读上一期 klines_daily.json 里该标的的序列，用新浪日线追加其后的新日期。
+    返回与主流程相同的 dict 结构；无底仓或无新数据时返回 None。"""
+    from fetch_lib import sina_daily_recent
+    try:
+        base = json.load(open(base_path, encoding="utf-8")).get(code)
+        if not base or not base.get("d"):
+            return None
+        last = base["d"][-1]
+        fresh = []
+        try:
+            recent = sina_daily_recent(code, 300)
+            fresh = [r for r in recent if r["date"] > last]
+        except Exception as e:  # noqa: BLE001
+            print(f"  sina 增量失败 {code}: {e}（沿用上一期底仓）")
+        return {
+            "name": base.get("name") or code,
+            "d": base["d"] + [r["date"] for r in fresh],
+            "o": base["o"] + [round(r["open"], 3) for r in fresh],
+            "c": base["c"] + [round(r["close"], 3) for r in fresh],
+            "h": base["h"] + [round(r["high"], 3) for r in fresh],
+            "l": base["l"] + [round(r["low"], 3) for r in fresh],
+            "v": base["v"] + [round(r["vol"], 0) for r in fresh],
+        }
+    except Exception as e:  # noqa: BLE001
+        print(f"  sina 降级失败 {code}: {e}")
+        return None
+
+
 def fetch_klines():
     start, end = "2018-01-01", TODAY
-    result = {"meta": {"start": start, "end": end, "source": "腾讯财经 fqkline (前复权)",
+    result = {"meta": {"start": start, "end": end, "source": "腾讯财经 fqkline (前复权) · 故障时新浪增量降级",
                        "fetched": dt.date.today().isoformat()}}
     todo = {}
     todo.update(ETF_BROAD); todo.update(ETF_SECTOR); todo.update(INDICES); todo.update(STOCKS)
@@ -67,8 +97,18 @@ def fetch_klines():
     except Exception as e:  # noqa: BLE001
         print("quote fail", e)
     for code, fallback_name in todo.items():
-        rows = tencent_daily_kline(code, start, end)
+        try:
+            rows = tencent_daily_kline(code, start, end)
+        except Exception:  # noqa: BLE001
+            rows = []
         if not rows:
+            # 腾讯 fqkline 故障时的降级：以上一期数据为底，用新浪日线补增量
+            rows = extend_with_sina(code, os.path.join(OUT, "klines_daily.json"))
+            if rows:
+                print(f"△ {code} {fallback_name}: 腾讯不可用，新浪增量 +{len(rows['d'])}根")
+                result[code] = rows
+                time.sleep(0.3)
+                continue
             print(f"✗ {code} {fallback_name} 无数据，跳过")
             continue
         result[code] = {
@@ -220,8 +260,14 @@ def fetch_cb():
 
 # ---------------------------------------------------------------- 打板情绪
 def fetch_emotion(days: int = 80):
-    idx_rows = tencent_daily_kline("sh000001", "2026-04-01", TODAY)
-    dates = [r["date"].replace("-", "") for r in idx_rows][-days:]
+    # 涨停池三池（push2ex 仅保留约15个交易日，早于窗口的日子返回空池）
+    try:
+        idx_rows = tencent_daily_kline("sh000001", "2026-04-01", TODAY)
+        dates = [r["date"].replace("-", "") for r in idx_rows][-days:]
+    except Exception:  # noqa: BLE001
+        # 腾讯故障降级：用东财 BK0815 昨日涨停指数的日期做轴（同为交易日历）
+        print("腾讯日线不可用，情绪模块日历轴降级为 BK0815")
+        dates = [x["date"].replace("-", "") for x in em_bk_kline("90.BK0815", beg="20260401")][-days:]
     out = []
     for d in dates:
         zt = em_zt_pool(d) or []

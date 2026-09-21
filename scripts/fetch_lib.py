@@ -162,6 +162,19 @@ def tencent_minute_kline(code: str, period: str = "m5", count: int = 320) -> lis
     return out
 
 
+def sina_daily_recent(code: str, num: int = 300) -> list:
+    """新浪日线（不复权）—— 腾讯 fqkline 故障时的降级源。code 需带 sh/sz 前缀。
+    ⚠️ 未复权：ETF/指数无分红问题；个股在降级窗口内若遇除权会有基点跳变（增量拼接场景可接受）。
+    """
+    sym = f"{_get_prefix(code)}{_norm6(code)}"
+    url = ("https://quotes.sina.cn/cn/api/json_v2.php/CN_MarketDataService.getKLineData"
+           f"?symbol={sym}&scale=240&ma=no&datalen={num}")
+    arr = json.loads(http_get(url, headers={"Referer": "https://finance.sina.com.cn/"}))
+    return [{"date": x["day"][:10], "open": float(x["open"]), "close": float(x["close"]),
+             "high": float(x["high"]), "low": float(x["low"]), "vol": float(x["volume"])}
+            for x in arr]
+
+
 def tencent_quote(codes: list) -> dict:
     """腾讯实时行情（skill §1.2），返回 {code: {name, price, ...}}"""
     pre_map = {}
